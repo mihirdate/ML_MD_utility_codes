@@ -17,10 +17,6 @@ if ds_home_path is None:
     Example: export DEGRADER_STUDIO_HOME=/bgfs01/insite02/DYNAMITE/portals/DYNAMITE/degrader-studio/''')
     quit()
 
-df_list = pd.read_csv('/bgfs01/insite02/DYNAMITE/portals/DYNAMITE/degrader-studio-NN/protacs_sdf/protacs_list.csv')
-
-protacslist = df_list.values.tolist()
-
 protacPrefix = "SiTX-009"
 
 file_name = "ligand.sdf"
