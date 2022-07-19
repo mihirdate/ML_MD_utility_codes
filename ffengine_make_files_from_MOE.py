@@ -25,6 +25,7 @@ file_name = "ligand.sdf"
 cwd = os.getcwd()
 sdf_files = cwd + "*.sdf"
 
+# specify prefix of all SDF files
 protacs_list1 = glob.glob('./SiTX_009_*.sdf')
 
 loop_number = len(protacs_list1) + 1
