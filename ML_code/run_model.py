@@ -98,7 +98,7 @@ dfX_target_final_keys = list(dfX_target_final.keys())
 set_diff = set(dfX_final_keys) - set(dfX_target_final_keys)
 list_diff = list(set_diff)
 if len(list_diff) != 0:
-    print("the feaytures of the train-test set and th eprospective set do not mmatch. Exiting...")
+    print("the feaytures of the train-test set and the prospective set do not mmatch. Exiting...")
     quit()
 
 print()
